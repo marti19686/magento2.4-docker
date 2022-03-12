@@ -1,0 +1,18 @@
+ \bin/magento setup:install \
+                  --base-url=http://localhost/ \
+                  --db-host=mariadb \
+                  --db-name=magento \
+                  --db-user=root \
+                  --db-password=root \
+                  --admin-firstname=admin \
+                  --admin-lastname=admin \
+                  --admin-email=admin@admin.com \
+                  --admin-user=admin \
+                  --admin-password=qwe123Rrr \
+                  --language=en_US \
+                  --currency=USD \
+                  --timezone=America/Chicago \
+                  --use-rewrites=1
+--search-engine=elasticsearch7
+
+bin/magento setup:install --base-url=http://localhost --db-host=mariadb --db-name=magento --db-password=root
